@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="./styling_folder/admin.css">
+    <link rel="stylesheet" href="./styling_folder/inventory.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <img src="https://res.cloudinary.com/diwwqfwjb/image/upload/v1725281506/Jenather-Ecommerce/nwqfas3que4whtkngexj.png" alt="logo">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Customers.html">Customer</a></li>
+            <li><a href="Inventory.html">Inventory</a></li>
+            <li><a href="">Logout</a></li>
+        </ul>
+    </nav>
+    <section class="section-1">
+        <button  onclick="switchContent('add_product'); return false;">Add Product</button>
+        <button onclick="switchContent('view_list'); return false;">View List</button>
+        <div class="content">
+            <div id="add_product" class="add_product">
+                <form action="" class="form">
+                    
+                    <section class="section1">
+                        <img src="https://res.cloudinary.com/diwwqfwjb/image/upload/v1725281506/Jenather-Ecommerce/nwqfas3que4whtkngexj.png" alt="" id="result" >
+                        <input type="file" accept=".png" id="car_viewing" name="image" onchange="readFile();">
+                        <input type="text" placeholder="Car Name" class="height_width">
+                        <input type="text" placeholder="Car Price" class="height_width">
+                    </section>
+
+                    <section class="section1">
+                        <input type="text" placeholder="Car Brand" class="height_width">
+                        <textarea name="" id="" placeholder="Description" class="car_info"></textarea>
+                        <button class="upload">Upload</button>
+                        
+                    </section>
+                    
+
+
+                </form>
+            </div>
+    
+            <div id="view_list" class="hidden view_list"> 
+                <button class="sizing">Suzuki</button>
+                <button class="sizing">Hatchback</button>
+                <button class="sizing">Honda</button>
+                
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="./function_folder/inventory_function.js"></script>
+</body>
+</html>
