@@ -2,7 +2,7 @@
 
 include("dbconnection.php");
 
-$sql = "SELECT customer_id, firstname, lastname, email, address FROM customer_credentials";
+$sql = "SELECT customer_id, firstname, lastname, email FROM customer_credentials";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -11,7 +11,6 @@ if ($result->num_rows > 0) {
                 <th>ID</th>
                 <th>Full Name</th>
                 <th>Email</th>
-                <th>Address</th>
             </tr>";
     
     while ($row = $result->fetch_assoc()) {
@@ -19,7 +18,6 @@ if ($result->num_rows > 0) {
                 <td>" . $row["customer_id"] . "</td>
                 <td>" . $row["firstname"] . " " . $row["lastname"] . "</td>
                 <td>" . $row["email"] . "</td>
-                <td>" . $row["address"] . "</td>
               </tr>";
     }
     echo "</table>";

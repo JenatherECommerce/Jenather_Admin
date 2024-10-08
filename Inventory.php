@@ -40,16 +40,30 @@
                             <input class="input_cars" type="text" name="product_brand" placeholder="Car Brand" required>
                             <input class="input_cars" type="text" name="product_name" placeholder="Car Name" required>
                             <input class="input_cars" type="numbers" name="product_price" placeholder="Car Price" required>
+                            <input class="input_cars" type="text" name="body_config" placeholder="Car Body Configuration" required>
                             
                         </div>
                     </section> 
 
                     <section class="section2">
-                        <input class="input_cars" type="text" name="body_config" placeholder="Car Body Configuration" required>
 
-                        <textarea class="discription" name="product_info" placeholder="Description" required></textarea>
-                        <button class="submit_button" type="submit" name="add_product" >Upload</button>
+                    <div class="textarea_container">
+                            <textarea class="discription" name="engine_performances" placeholder="Engine Performances" required></textarea>
+                            <textarea class="discription" name="dimensions" placeholder="Dimensions" required></textarea>
+                            <textarea class="discription" name="interior_comfort" placeholder="Interior Comfort" required></textarea>
+                        </div>
+                        <div class="textarea_container">
+                            <textarea class="discription" name="safety" placeholder="Safety" required></textarea>
+                            <textarea class="discription" name="wheel" placeholder="Wheel" required></textarea>
+                            <textarea class="discription" name="features" placeholder="Features" required></textarea>
+                        </div>
+                        
                     </section>
+                    <div class="button_container">
+                            <button class="submit_button" type="submit" name="add_product" >Upload</button>
+                            <button class="submit_button" type="submit" name="cancel" >Cancel</button>
+
+                    </div>
                 </form>
             </div>
     
