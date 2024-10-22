@@ -23,7 +23,7 @@ if (isset($_POST['signUp'])) {
         header("Location: Profile.php");
         exit();
     } else {
-        echo 'Error inserting customer credentials: ' . htmlspecialchars($stmt->error);
+        echo 'Error inserting admin credentials: ' . htmlspecialchars($stmt->error);
     }
 
     $stmt->close();
