@@ -59,7 +59,7 @@ form{
     text-align: center;
     border-radius: 20px;
     margin-top: 10px;
-    border: solid 3px;
+    border: solid 5px;
     width: 500px;
     height: 35px;
 }
@@ -78,6 +78,7 @@ form{
 }
 
 .discription{
+    text-align: center;
     width: 580px;
     height: 200px;
     border-radius: 20px;
@@ -94,116 +95,17 @@ form{
 
 .update_list{
     width: 1200px;
-    height: 500px;
+    height: 1010px;
     background-color: azure;
 }
 
 .carbrand{
-    display: flex;
-}
-
-
-/* 
-.section-1{
-    width: 90vw;
-    height: 500px;
-    background-color: #d9d9d9;
-    margin-top: 20px;
-    border-radius: 25px;
-    text-align: center;
-
-}
-
-.button_container{
-    width: 1200px;
-    height: 50px;
-    background-color: salmon;
-
-}
-
-
-.content{
-    width: 90vw;
-    height: 450px;
-    
-
-
-}
-
-
-.sizing{
-    width: 400px;
-    height: 50px;
-}
-
-.add_product{
-    width: 90vw;
-    height: 450px;
-    justify-content: center;
-    display: flex;
-
-
-}
-
-.form{
-    width: 85vw;
-    height: 450px;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
-
-}
-
-.section1{
-    width: 500px;
-    height: 450px;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    display: flex;
-
-}
-
-section img{
-    width: 200px;
-    height: 200px;
-    border: 20px solid black;
-    border-radius: 25px;
-}
-
-section input{
-    margin: 5px;
-    text-align: center;
-    width: 270px;
-    height: 50px;
-    color: white;
-    font-size: 18px;
-}
-
-.height_width{
-
-    width: 500px;
+    width: 550px;
     height: 30px;
-    color: black;
-    border-radius: 25px;
-
-}
-.car_info{
-    text-align: center;
-    margin: 2px;
-    font-size: 24px;
-    width: 500px;
-    height: 150px;
-    color: black;
+    align-items: center;
 }
 
-.upload{
-    width: 500px;
-}
-*/
+
 
 .hidden{
     display: none;

@@ -9,13 +9,14 @@
 </head>
 <body>
     <nav>
+        <img src="https://res.cloudinary.com/diwwqfwjb/image/upload/v1725281506/Jenather-Ecommerce/nwqfas3que4whtkngexj.png" alt="logo">
         <ul>
-            <img src="https://res.cloudinary.com/diwwqfwjb/image/upload/v1725281506/Jenather-Ecommerce/nwqfas3que4whtkngexj.png" alt="logo">
-            <li><a href="Home.php">Home</a></li>
+            
+            <li><a href="adminHome.php">Home</a></li>
             <li><a href="Profile.php">Profile</a></li>
             <li><a href="Customers.php">Customer</a></li>
             <li><a href="Inventory.php">Inventory</a></li>
-            <li><a href="">Logout</a></li>
+            <li><a href="logout.php">Logout</a></li>
         </ul>
     </nav>
     <section class="section-1">
@@ -27,7 +28,7 @@
         
         <div class="content" >
             <div id="add_product" class="add_product">
-                <form action="add_product.php" class="form" method="post">
+                <form action="Inventory_product.php" class="form" method="post" enctype="multipart/form-data">
                     
                     <section class="section1">
                         <div class="img_holder">
@@ -67,9 +68,11 @@
             </div>
     
             <div id="update_list" class="hidden update_list"> 
-                <button class="carbrand" type="button" >Suzuki</button>
-                <button class="carbrand" type="button" >Hatchback</button>
-                <button class="carbrand" type="button" >Honda</button>
+                <div class="button_container">
+                    <button class="carbrand" type="button" >Suzuki</button>
+                    <button class="carbrand" type="button" >Honda</button>
+                </div>
+                
                 
             </div> 
         </div>
